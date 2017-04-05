@@ -50,6 +50,53 @@ button.navbar-toggle,button.navbar-toggle:hover{
 	border: none;
 }
 
+/*Radio v*/
+input[type="radio"]{
+	display: none;
+}
+input[type="radio"] span{
+	width: auto;
+}
+
+input[type="radio"] + label {
+    display:inline-block;
+    width:1.2142857142857142em;
+    height:1.2142857142857142em;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+    background-color: #fff;
+    position: relative;
+    border:#cacaca 0.05357142857142857em solid;
+    margin: auto;
+}
+
+input[type="radio"]:checked + label:before {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -moz-border-radius: 50%;
+    border-radius:  50%;
+    content: '';
+    background: #c4142b;
+}
+
+input[type="radio"]:checked + label {
+    border:#c4142b 0.05357142857142857em solid;
+}
+
+input[type="radio"]:disabled + label{
+    border: #cacaca 0.05357142857142857em solid;
+    background-color: #cacaca;
+}
+/*Radio ^*/
+
 button.navbar-toggle>span.icon-bar{
 	background-color: #c4142b !important;
 }
@@ -107,6 +154,10 @@ button.navbar-toggle>span.icon-bar{
 	.navbar-nav > li > a,button.navbar-btn{
 		font-family: "OpenSans-Semibold";
 		font-size: 1em;
+	}
+
+	.intro-slogan button{
+		font-size: 1.2857142857142856em;
 	}
 }
 

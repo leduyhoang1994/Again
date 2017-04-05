@@ -74,6 +74,12 @@
 			<img class="hidden-md hidden-lg hidden-sm" src="image/Devices.png" width="100%">
 		</div>
 	</div>
+	<input type="radio" id="c1" name="cc" />
+    <label for="c1"><span></span></label>
+    <input type="radio" id="c2" name="cc" />
+    <label for="c2"><span></span></label>
+    <input type="radio" id="c3" name="cc" disabled="disabled" />
+    <label for="c3"><span></span></label>
 	<div style="height: 1000px; width: 100%"></div>
 </body>
 </html>
