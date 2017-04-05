@@ -70,9 +70,10 @@ input[type="radio"] + label {
     position: relative;
     border:#cacaca 0.05357142857142857em solid;
     margin: auto;
+    transition: all 0.2s ease-in-out;
 }
 
-input[type="radio"]:checked + label:before {
+input[type="radio"] + label:after {
     width: 80%;
     height: 80%;
     position: absolute;
@@ -84,6 +85,11 @@ input[type="radio"]:checked + label:before {
     -moz-border-radius: 50%;
     border-radius:  50%;
     content: '';
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="radio"]:checked + label:after {
     background: #c4142b;
 }
 
