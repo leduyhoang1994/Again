@@ -1,3 +1,4 @@
+/*------------------------------------ELEMENTS------------------------------*/
 @font-face {
     font-family: "OpenSans-Light";
     src: url(../font/opensans/OpenSans-Light.eot),url(../font/opensans/OpenSans-Light.ttf);
@@ -28,15 +29,6 @@ body,html{
 	position: relative;
 }
 
-#introduction{
-	height: calc(100vh - 1.5em);
-	background-color: gray;
-	padding-top: 5em;
-	padding-left: 0;
-	padding-right: 0;
-	margin-bottom: 2em;
-}
-
 .mask{
 	position: absolute;
 	top: 0;
@@ -50,6 +42,35 @@ body,html{
 	z-index: 1;
 	background-color: black;
 }
+
+.align-bottom{
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.d-table{
+	display: table;
+}
+
+.uppercase{
+	text-transform: uppercase !important;
+}
+
+.mx-auto{
+	margin: auto !important;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+.my-auto{
+	margin: auto !important;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+/*------------------------------------DETAIL------------------------------*/
 
 .intro-bg{
 	z-index: 0;
@@ -81,11 +102,86 @@ body,html{
 	margin-bottom: 3em;
 }
 
-.align-bottom{
-	display: table-cell;
-	vertical-align: bottom;
+#introduction{
+	height: calc(100vh - 1.5em);
+	background-color: gray;
+	padding-top: 5em;
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.d-table{
-	display: table;
+#slideshow{
+	padding-top: 7em;
+	background-image: url(../image/bg2.png);
+	background-size: cover;
+	height: 100vh;
+}
+
+div.slider{
+	position: relative;
+}
+
+div.slider>img{
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.40);
+	position: absolute;
+	transition: all 0.7s ease-in-out;
+}
+
+.left{
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	opacity: 0.8;
+	z-index: 0;
+	transform-origin: left;
+		transform: translate(0%, 0%) scale(0.6);
+	/*animation: rotate12 1s forwards linear;*/
+}
+.centered{
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	opacity: 1;
+	transform-origin: left;
+		transform: translate(10%, 0%) scale(0.8);
+	/*animation: rotate23 1s forwards linear;*/
+}
+.right{
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	opacity: 0.8;
+	z-index: 0;
+	transform-origin: left;
+		transform: translate(40%, 0%) scale(0.6);
+	/*animation: rotate31 1s forwards linear;*/
+}
+
+.slider-button{
+	margin-bottom: 1em;
+}
+
+.slider-content h3{
+	font-family: "OpenSans-Semibold";
+	color: #c4142b;
+	text-align: left;
+	margin:0;
+}
+.slider-content h5{
+	font-family: "OpenSans-Semibold";
+	text-align: left;
+	margin:0;
+	padding: 1em;
+	padding-left: 0;
+	line-height: 180%;
+}
+.slider-content img{
+	height: 3em;
+	width: 3em;
 }
