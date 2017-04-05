@@ -52,19 +52,14 @@ button.navbar-toggle,button.navbar-toggle:hover{
 
 /*Radio v*/
 [type="radio"] {
-  border: #c4142b;
-  height: 1px; margin: -1px;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+  border: none;
+  display: none;
 }
 
 /* One radio button per line */
 label {
-  display: block;
-  cursor: pointer;  /*hand view when on hover*/
-  line-height: 2.5;
-  font-size: 1.5em;
+  display: inline-block;
+  cursor: pointer;
 }
 
 /* the basic, unchecked style */
@@ -73,7 +68,7 @@ label {
   display: inline-block;
   width: 1em;
   height: 1em;
-  vertical-align: -0.25em;
+  vertical-align: -0.15em;
   border-radius: 1em;           /*hard border*/
   border: 0.125em solid #fff;
   box-shadow: 0 0 0 0.05357142857142857em #a0a0a0;   /*light shadow*/
