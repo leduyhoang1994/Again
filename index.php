@@ -68,7 +68,7 @@
 		<div class="intro-slogan align-bottom">
 			<h1>Lưu trữ mọi lúc, chia sẻ mọi nơi</h1>
 			<h3>Trao cho bạn cơ hội được lưu trữ, download, upload và chia sẻ dữ liệu trực tuyến đến bất cứ đâu, bất cứ khi nào.</h3>
-			<button class="btn btn-primary">Đăng ký ngay</button>
+			<button class="btn btn-primary">Tải lên &amp; Chia sẻ</button>
 			<div class="clearfix"></div>
 			<img class="hidden-xs" src="image/Devices.png" height="50%">
 			<img class="hidden-md hidden-lg hidden-sm" src="image/Devices.png" width="100%">

@@ -71,6 +71,10 @@ body,html{
 	padding-right: 2em;
 }
 
+.intro-slogan > h3{
+	line-height: 140%;
+}
+
 .intro-slogan button{
 	margin-top: 3em;
 	margin-bottom: 3em;
