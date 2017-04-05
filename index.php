@@ -74,12 +74,17 @@
 			<img class="hidden-md hidden-lg hidden-sm" src="image/Devices.png" width="100%">
 		</div>
 	</div>
-	<input type="radio" id="c1" name="cc" />
-    <label for="c1"><span></span></label>
-    <input type="radio" id="c2" name="cc" />
-    <label for="c2"><span></span></label>
-    <input type="radio" id="c3" name="cc" disabled="disabled" />
-    <label for="c3"><span></span></label>
+	<label for="radio-one">
+	<input type="radio" value="radio-one" name="quality" id="radio-one"> <span>Cuối cùng</span>
+	</label>
+
+	<label for="radio-two">
+	<input type="radio" value="radio-two" name="quality" id="radio-two"> <span>cũng</span>
+	</label>
+
+	<label for="radio-three">
+	<input type="radio" value="radio-two"  name="quality" id="radio-three" checked> <span>được</span>
+	</label>
 	<div style="height: 1000px; width: 100%"></div>
 </body>
 </html>
