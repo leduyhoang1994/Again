@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(../font/opensans/OpenSans-Light.eot),url(../font/opensans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../font/opensans/OpenSans-Regular.eot),url(../font/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(../font/opensans/OpenSans-Bold.eot), url(../font/opensans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url(../font/opensans/OpenSans-Semibold.eot), url(../font/opensans/OpenSans-Semibold.ttf);
+}
+
+body,html{
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+}
+
+.section{
+	width: 100% !important;
+	position: relative;
+}
+
+#introduction{
+	height: calc(100vh - 1.5em);
+	background-color: gray;
+	padding-top: 7.142857142857143em;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+	z-index: 1;
+	background-color: black;
+}
+
+.intro-bg{
+	z-index: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(../image/bg1.jpg);
+	background-size: cover;
+}
+
+.intro-slogan{
+	position: relative;
+	text-align: center;
+	z-index: 2;
+	color: #fff;
+	bottom: -2em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.intro-slogan button{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.align-bottom{
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.d-table{
+	display: table;
+}

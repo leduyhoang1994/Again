@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(font/opensans/OpenSans-Light.eot),url(font/opensans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(font/opensans/OpenSans-Regular.eot),url(font/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Os-bold";
+    src: url(font/opensans/OpenSans-Bold.eot), url(font/opensans/OpenSans-Bold.ttf);
+}
+
+nav.fshare-navbar{
+	border-bottom: silver thin solid;
+}
