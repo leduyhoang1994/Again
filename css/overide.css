@@ -49,8 +49,9 @@ button.navbar-toggle>span.icon-bar{
 }
 
 @media screen and (min-width: 768px){
-	nav.navbar-default > .container-fluid,nav.navbar-default .container-fluid, nav.navbar-default{
-		height: 7.142857142857143em;
+	nav.navbar-default > .container-fluid,nav.navbar-default .container-fluid, nav.navbar-default, div.navbar-header{
+		min-height: 5em;
+		height: 5em;
 	}
 
 	nav.navbar-default{
@@ -60,7 +61,7 @@ button.navbar-toggle>span.icon-bar{
 	.navbar-nav > li > a{
 		padding-left: 2.142857142857143em;
 		padding-right: 2.142857142857143em;
-		line-height: 7.142857142857143em;
+		line-height: 5em;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -79,13 +80,13 @@ button.navbar-toggle>span.icon-bar{
 		margin-left: 3em;
 	}
 
-	.navbar-nav > li > a,button.navbar-btn{
+	.navbar-nav > li > a,button.navbar-btn,div.navbar-header > a{
 		font-family: "OpenSans-Semibold";
 		font-size: 1em;
 	}
 
 	button.navbar-btn{
-		margin-top: 2.2em;
+		margin-top: 1em;
 	}
 }
 
@@ -124,13 +125,4 @@ button.navbar-toggle>span.icon-bar{
 	body,html{
 		font-size: 14px;
 	}
-}
-
-/* Portrait */
-@media screen and (orientation:portrait) {
-    
-}
-/* Landscape */
-@media screen and (orientation:landscape) {
-    
 }

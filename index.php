@@ -41,7 +41,7 @@
 	<nav class="navbar navbar-default fshare-navbar navbar-fixed-top">
 	  	<div class="container-fluid">
 		    <div class="navbar-header">
-				<a class="navbar-brand" href="#"><img src=""/></a>
+				<a class="navbar-brand" href="#"></a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#fshare-nav-menu">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -70,7 +70,8 @@
 			<h3>Trao cho bạn cơ hội được lưu trữ, download, upload và chia sẻ dữ liệu trực tuyến đến bất cứ đâu, bất cứ khi nào.</h3>
 			<button class="btn btn-primary">Đăng ký ngay</button>
 			<div class="clearfix"></div>
-			<img src="image/Devices.png" height="50%">
+			<img class="hidden-xs" src="image/Devices.png" height="50%">
+			<img class="hidden-md hidden-lg hidden-sm" src="image/Devices.png" width="100%">
 		</div>
 	</div>
 	<div style="height: 1000px; width: 100%"></div>
