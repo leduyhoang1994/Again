@@ -2,9 +2,6 @@ jQuery(document).ready(function($) {
 	resizeElement();
 });
 
-$(window).scroll(function(event) {
-	resizeElement();
-});
 function resizeElement(){
 	$('.slider').height($('.slider').width() * (9/16));
 	// while($('.slider').width() > $(window).width()){
@@ -13,3 +10,6 @@ function resizeElement(){
 	// 	$('.slider').css('margin-left',$('.slider').width()/2);
 	// }
 }
+jQuery(window).resize(function(event) {
+	resizeElement();
+});

@@ -11,11 +11,6 @@
 	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-	<!--[if lte IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<script type="text/javascript" src="js/jquery1.9.1.min.js"></script>
-    <![endif]-->
     <style type="text/css">
     	#template{
     		position: absolute;
@@ -100,8 +95,10 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
-									<div class="col-xs-2"><img src="image/storage_icon.png"></div>
-									<div class="col-xs-10 slc-title"><h3>Download và chia sẻ dữ liệu</h3></div>
+									<div class="col-xs-10 slc-title">
+										<img src="image/storage_icon.png">
+										<h3>Download và chia sẻ dữ liệu</h3>
+									</div>
 								</div>
 							</div>
 							<div class="col-xs-12">
@@ -113,8 +110,10 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
-									<div class="col-xs-2"><img src="image/speech_icon.png"></div>
-									<div class="col-xs-10"><h3>Xem trực tuyến</h3></div>
+									<div class="col-xs-10 slc-title">
+										<img src="image/speech_icon.png">
+										<h3>Xem trực tuyến</h3>
+									</div>
 								</div>
 							</div>
 							<div class="col-xs-12">
@@ -126,8 +125,10 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
-									<div class="col-xs-2"><img src="image/safe_icon.png"></div>
-									<div class="col-xs-10"><h3>Theo dõi thư mục</h3></div>
+									<div class="col-xs-10 slc-title">
+										<img src="image/safe_icon.png">
+										<h3>Theo dõi thư mục</h3>
+									</div>
 								</div>
 							</div>
 							<div class="col-xs-12">
