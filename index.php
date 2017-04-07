@@ -11,6 +11,10 @@
 	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<!--[if lte IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <style type="text/css">
     	#template{
     		position: absolute;
@@ -61,7 +65,7 @@
 		<div class="intro-bg">
 		</div>
 		<div class="mask"></div>
-		<div class="intro-slogan align-bottom">
+		<div class="intro-slogan valign-bottom">
 			<h1 class="uppercase">Lưu trữ mọi lúc, chia sẻ mọi nơi</h1>
 			<h3>Trao cho bạn cơ hội được lưu trữ, download, upload và chia sẻ dữ liệu trực tuyến đến bất cứ đâu, bất cứ khi nào.</h3>
 			<button class="btn btn-primary">Tải lên &amp; Chia sẻ</button>
@@ -91,7 +95,7 @@
 			</div>
 			<div class="col-md-10 col-xs-8 col-md-offset-1 col-xs-offset-2 slider-content">
 				<div class="row">
-					<div class="hidden-xs hidden-sm col-md-4 text-center">
+					<div class="hidden-xs hidden-sm col-xs-12 col-md-4 text-center">
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
@@ -106,7 +110,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-8 col-md-4 text-center">
+					<div class="col-xs-12 col-md-4 text-center">
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
@@ -121,7 +125,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="hidden-xs hidden-sm col-md-4 text-center">
+					<div class="hidden-xs hidden-sm col-xs-12 col-md-4 text-center">
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="row">
@@ -139,6 +143,12 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="section d-table" id="slogan">
+		<div class="parallax-img"></div>
+	 	<div class="mask"></div>
+	 	<h2 class="valign-center text-center hidden-xs hidden-sm">Mạng xã hội Lưu trữ và Chia sẻ dữ liệu trực tuyến hàng đầu VIỆT NAM </h2>
+	 	<h3 class="valign-center text-center hidden-md hidden-lg">Mạng xã hội Lưu trữ và Chia sẻ dữ liệu trực tuyến hàng đầu VIỆT NAM </h3>
 	</div>
 	<div style="height: 1000px; width: 100%"></div>
 </body>
