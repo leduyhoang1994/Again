@@ -224,6 +224,96 @@
 			</div>
 		</div>
 	</div>
+	<div class="section container" id="advise">
+		<div class="row">
+			<div class="hidden-xs hidden-sm col-md-4 adv-left">
+				<div class="row">
+					<div class="col-xs-12 adv-left-info d-table">
+						<div class="adv-name valign-center text-right">
+							<span class="semi-bold trans adv-name-text">Lee Jun Hoong</span>
+						</div>
+						<div class="adv-avt valign-center">
+							<div class="adv-img">
+								<img class="trans" src="image/avt.JPG" height="100%">
+							</div>
+							<div class="adv-dot trans">
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 adv-left-info d-table">
+						<div class="adv-name valign-center text-right">
+							<span class="semi-bold trans adv-name-text">Lee Jun Hoong</span>
+						</div>
+						<div class="adv-avt valign-center">
+							<div class="adv-img">
+								<img class="trans" src="image/avt.JPG" height="100%">
+							</div>
+							<div class="adv-dot trans">
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 adv-left-info d-table">
+						<div class="adv-name valign-center text-right">
+							<span class="semi-bold trans adv-name-text">Lee Jun Hoong</span>
+						</div>
+						<div class="adv-avt valign-center">
+							<div class="adv-img">
+								<img class="trans my-a" src="image/avt.JPG" height="100%">
+							</div>
+							<div class="adv-dot trans">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-8 adv-right">
+				<div class="row">
+					<div class="text-center col-xs-12">
+						<h3 class="black uppercase text-center">Tại sao chọn Fshare.vn?</h3>
+					</div>
+					<div class="text-center col-xs-6 col-xs-offset-3 avr-slide-container">
+						<div class="avr-slide">
+							<div class="avr-box col-xs-4">
+								<div class="avr-img">
+									<img src="image/avt.JPG" height="100%">
+								</div>
+								<h3>Lee Jun Hoong</h3>
+								<h5>Đôi lúc, tôi hay quên USB chứa dữ liệu quan trọng ở nhà. Nhờ có Fshare giúp tôi dễ dàng lưu trữ dữ liệu và có thể chia sẻ với đồng nghiệp ở bất kỳ đâu với bất kỳ thiết bị nào có internet</h5>
+							</div>
+							<div class="avr-box col-xs-4">
+								<div class="avr-img">
+									<img src="image/avt.JPG" height="100%">
+								</div>
+								<h3>Lee Jun Hoong</h3>
+								<h5>Đôi lúc, tôi hay quên USB chứa dữ liệu quan trọng ở nhà. Nhờ có Fshare giúp tôi dễ dàng lưu trữ dữ liệu và có thể chia sẻ với đồng nghiệp ở bất kỳ đâu với bất kỳ thiết bị nào có internet</h5>
+							</div>
+							<div class="avr-box col-xs-4">
+								<div class="avr-img">
+									<img src="image/avt.JPG" height="100%">
+								</div>
+								<h3>Lee Jun Hoong</h3>
+								<h5>Đôi lúc, tôi hay quên USB chứa dữ liệu quan trọng ở nhà. Nhờ có Fshare giúp tôi dễ dàng lưu trữ dữ liệu và có thể chia sẻ với đồng nghiệp ở bất kỳ đâu với bất kỳ thiết bị nào có internet</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 text-center avr-button">
+						<label for="avr-one">
+							<input type="radio" value="radio-one" name="avr" id="avr-one"> <span></span>
+						</label>
+						<label for="avr-two">
+							<input type="radio" value="radio-two" name="avr" id="avr-two" checked> <span></span>
+						</label>
+						<label for="avr-three">
+							<input type="radio" value="radio-three" name="avr" id="avr-three"> <span></span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div style="height: 1000px; width: 100%"></div>
 </body>
 </html>
