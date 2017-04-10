@@ -150,6 +150,80 @@
 	 	<h2 class="valign-center text-center hidden-xs hidden-sm">Mạng xã hội Lưu trữ và Chia sẻ dữ liệu trực tuyến hàng đầu VIỆT NAM </h2>
 	 	<h3 class="valign-center text-center hidden-md hidden-lg">Mạng xã hội Lưu trữ và Chia sẻ dữ liệu trực tuyến hàng đầu VIỆT NAM </h3>
 	</div>
+	<div class="section container" id="policy">
+		<div class="row text-center">
+			<div class="col-xs-10 col-xs-offset-1">
+				<h2 class="red text-center uppercase">Đặc quyền VIP Fshare</h3>
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 policy-box">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="policy-img-box">
+							<img class="policy-img" src="image/storage_icon.png"/>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<h3 class="red text-center uppercase">Lưu trữ khủng</h3>
+					</div>
+					<div class="col-xs-12">
+
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1">
+								<p>
+									300GB lưu trữ sẽ được chuyển ngay vào tài khoản Fshare khi bạn nâng cấp VIP thành công.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 policy-box">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="policy-img-box">
+							<img class="policy-img" src="image/safe_icon.png"/>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<h3 class="red text-center uppercase">Bảo mật cao</h3>
+					</div>
+					<div class="col-xs-12">
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1">
+								<p>
+									Dữ liệu lưu trữ của bạn tại Fshare.vn luôn được bảo mật và an toàn tuyệt đối.
+								</p>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 policy-box">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="policy-img-box">
+							<img class="policy-img" src="image/storage_icon.png"/>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<h3 class="red text-center uppercase">Thanh toán linh hoạt</h3>
+					</div>
+					<div class="col-xs-12">
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1">
+								<p>
+									Đa dạng các hình thức thanh toán từ ví điện tử đến các loại thẻ Visa, thẻ cào điện thoại, tin nhắn SMS…
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 text-center">
+				<button class="btn btn-default policy-more">TÌM HIỂU THÊM</button>
+			</div>
+		</div>
+	</div>
 	<div style="height: 1000px; width: 100%"></div>
 </body>
 </html>
