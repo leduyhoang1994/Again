@@ -111,6 +111,9 @@ body,html{
 .trans{
 	transition: all 0.2s ease-in-out;
 }
+.trans5{
+	transition: all 0.5s ease-in-out;
+}
 
 /*------------------------------------DETAIL------------------------------*/
 
@@ -162,6 +165,7 @@ body,html{
 
 div.slider{
 	position: relative;
+	height: 30em;
 }
 
 div.slider>img{
@@ -281,10 +285,12 @@ div.slider>img{
 	margin-top: 4em;
 }
 
-button.policy-more{
+div>button.policy-more{
 	margin-top: 2em;
-	padding-top: 0.5em !important;
-	padding-bottom: 0.5em !important;
+    padding-top: 0.65em;
+    padding-bottom: 0.5em;
+    padding-left: 1.4285714285714286em;
+    padding-right: 1.4285714285714286em;
 }
 
 .policy-img{
@@ -308,9 +314,10 @@ button.policy-more{
 }
 .adv-left{
 	padding-right: 0;
-	border-right: #afafaf 2px solid;
+	border-right: #afafaf 1px solid;
 	padding-top: 4em;
 	padding-bottom: 4em;
+	background-image: url(../image/bg2.png);
 }
 .adv-left-info{
 	height: 3em;
@@ -371,11 +378,11 @@ button.policy-more{
 	border: transparent thin solid;
 	background-color: #afafaf;
 	border-radius: 50%;
-	height: 1.5em;
-	width: 1.5em;
+	height: 1em;
+	width: 1em;
 	position: absolute;
-	right: -0.85em;
-	bottom: -0.85em;
+    right: -0.55em;
+    bottom: -0.55em;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -425,4 +432,13 @@ img.img-selected{
 .avr-slide{
 	width: 300%;
 	float: left;
+}
+.avr-slide-1{
+	margin-left: 0%;
+}
+.avr-slide-2{
+	margin-left: -100%;
+}
+.avr-slide-3{
+	margin-left: -200%;
 }
